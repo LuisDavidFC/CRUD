@@ -1,0 +1,5 @@
+body {
+  margin: 0;
+  background: linear-gradient(135deg, rgb(17, 45, 78) 0%, rgb(63, 114, 175) 100%);
+  font-family: 'Source Code Pro', monospace;
+}
