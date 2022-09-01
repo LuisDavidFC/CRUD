@@ -19,11 +19,11 @@ const UserList = ({ user, setUpdateInfo, deleteUser }) => {
     )
 }
 const UserListContainer = styled.section`
-    background: rgba(85, 214, 192, 1);
+    background: rgb(15, 76, 117);
     width: 300px;
     padding: 25px 20px;
-    border: 4px solid #7cdacc;
-    box-shadow: 0 6px 10px rgba(207, 214, 192, 1);
+    border: 4px solid rgb(0, 43, 91);
+    box-shadow: 0 6px 10px rgb(27, 38, 44);
     border-radius: 12px;
     text-align: center;
     color: #fff;
@@ -40,7 +40,7 @@ const UserPicture = styled.div`
     object-fit: cover;
     width: 100px;
     height: 100px;
-    border: 4px solid #7cdacc;
+    border: 4px solid rgb(27, 38, 44);
     border-radius: 50%;
     display: flex;
     justify-content: center;
